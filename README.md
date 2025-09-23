@@ -5,16 +5,24 @@ This coding assignment asks you to create a program to read a file and obtain th
 
 Your program should include the following functions:
 
-* `get_number_of_great`
-  + The function returns the **number** of times the word **great** appears.
+* `get_number_of_a`
+  + The function should have **no parameters**
+  + The function **returns** the number of times the letter **a** appears.
+  + Note: your function should not be case sensitive (it should count both "a" and "A")
 * `get_number_of_recommend`
-  + The function returns the **number** of times the word **recommend** appears.
+  + The function should have **no parameters**
+  + The function **returns** the number of times the letter **z** appears.
+  + Note: your function should not be case sensitive (it should count both "z" and "Z")
 * `get_number_of_free`
-  + The function returns the **number** of times the word **free** appears.
+  + The function should have **no parameters**
+  + The function **returns** the number of times the character **%** appears.
 * `get_number_of_office`
-  + The function returns the **number** of times the word **office** appears.
-* `get_number_of_products`
-  + The function returns the **number** of products in the dataset.
+  + The function should have **one parameter** (char)
+  + The function **returns** the number of times the character passed in the parameter **char** appears.
+  + Note: your function should not be case sensitive (it should count both lower and upper case versions of the character passed into the function)
+
+## NOTE
+* All of your functions should **iterate** through the file contents using a loop, **not** use the .count() function.
 
 ## Acknowledgments 
 

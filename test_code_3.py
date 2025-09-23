@@ -1,29 +1,29 @@
 import os,sys
 import pytest
-from code_3 import get_number_of_great
-from code_3 import get_number_of_recommend
-from code_3 import get_number_of_free
-from code_3 import get_number_of_office
-from code_3 import get_number_of_products
+from assignment import get_number_of_a
+from assignment import get_number_of_z
+from assignment import get_number_of_percent
+from assignment import get_number_of_char
 
 def check_if_file_exists():
     try:
-        exists = os.path.exists("code_3.py")
+        exists = os.path.exists("assignment.py")
         assert exists == True
     except:
         sys.exit()
 
-def test_word_great():
+def test_letter_a():
     # If your code is returning 26060 it is because your code is case sensitive
-    assert get_number_of_great() == 43379
-def test_word_recommend():
+    assert get_number_of_a() == 4335184
+def test_letter_z():
     # If your code is returning 9296 it is because your code is case sensitive
-    assert get_number_of_recommend() == 9496
-def test_word_free():
+    assert get_number_of_z() == 130261
+def test_char_percent():
     # If your code is returning 2276 it is because your code is case sensitive
-    assert get_number_of_free() == 2681 
-def test_word_office():
+    assert get_number_of_percent() == 1836 
+def test_user_char_b():
     # If your code is returning 5335 it is because your code is case sensitive
-    assert get_number_of_office() == 7692
-def test_number_of_words():
-    assert get_number_of_products() == 113412
+    assert get_number_of_char("b") == 1023496
+def test_user_char_tilde():
+    # If your code is returning 5335 it is because your code is case sensitive
+    assert get_number_of_char("~") == 963
