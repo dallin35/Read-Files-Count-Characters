@@ -9,14 +9,14 @@ def get_number_of_a():
     pass  # Delete this line, then write your code for the function here.
 
 def get_number_of_z():
-    pass # Delete this line, then write your code for the function here.
+    pass  # Delete this line, then write your code for the function here.
 
 def get_number_of_percent():
-    pass # Delete this line, then write your code for the function here.
+    pass  # Delete this line, then write your code for the function here.
 
 def get_number_of_char(user_char):
-    pass # Delete this line, then write your code for the function here.
+    pass  # Delete this line, then write your code for the function here.
 
 # Test your code below, inside the if statement
 if __name__ == "__main__":
-    pass # Delete this line to test your functions
+    pass  # Test your functions by deleting this line and calling them here.

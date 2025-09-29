@@ -9,14 +9,14 @@ Your program should include the following functions:
   + The function should have **no parameters**
   + The function **returns** the number of times the letter **a** appears.
   + Note: your function should not be case sensitive (it should count both "a" and "A")
-* `get_number_of_recommend`
+* `get_number_of_z`
   + The function should have **no parameters**
   + The function **returns** the number of times the letter **z** appears.
   + Note: your function should not be case sensitive (it should count both "z" and "Z")
-* `get_number_of_free`
+* `get_number_of_%`
   + The function should have **no parameters**
   + The function **returns** the number of times the character **%** appears.
-* `get_number_of_office`
+* `get_number_of_char`
   + The function should have **one parameter** (char)
   + The function **returns** the number of times the character passed in the parameter **char** appears.
   + Note: your function should not be case sensitive (it should count both lower and upper case versions of the character passed into the function)
